@@ -7,6 +7,8 @@ public class Main
     public static void main(String[] args) throws IOException
     {
         readFromAFile("C:/Users/Piotr/Desktop/client-car-purchase-spreadsheet.csv");
+        CSVParser csvParser = new CSVParser();
+        csvParser.parse();
     }
 
     public static void readFromAFile(String fileName) throws IOException
